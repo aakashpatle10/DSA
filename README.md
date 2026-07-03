@@ -16,4 +16,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0700-search-in-a-binary-search-tree](https://github.com/aakashpatle10/DSA/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/aakashpatle10/DSA/tree/master/0701-insert-into-a-binary-search-tree) |
+## Math
+|  |
+| ------- |
+| [0009-palindrome-number](https://github.com/aakashpatle10/DSA/tree/master/0009-palindrome-number) |
 <!---LeetCode Topics End-->
