@@ -12,17 +12,16 @@
 public class Solution {
     public int getSize(ListNode head){
         ListNode temp=head;
-            int count = 0;
-            while(temp!=null){
-                count++;
-                temp=temp.next;
-            }
-            return count;
+        int count=0;
+        while(temp!=null){
+            count++;
+            temp=temp.next;
+        }
+        return count;
     }
-    
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        int sizeA = getSize(headA);
-        int sizeB = getSize(headB);
+        int sizeA=getSize(headA);
+        int sizeB=getSize(headB);
         if(sizeA>sizeB){
             int m = (sizeA-sizeB);
             for(int i=1;i<=m;i++){
@@ -42,6 +41,6 @@ public class Solution {
             headB=headB.next;
         }
         return  null;
-
+       
     }
 }
